@@ -1,0 +1,77 @@
+/* Estilos globais */
+body {
+  background: linear-gradient(to bottom, #ff7e5f, #feb47b); /* Gradiente do laranja ao salmão */
+  height: 100vh; /* Garante que o gradiente cubra toda a altura da página */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff; 
+  font-family: Arial, sans-serif;
+}
+
+
+/* Layout geral */
+div {
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #007bff;
+  border-radius: 18px;
+ 
+}
+
+/* Cabeçalhos */
+h1 {
+  color:black;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #444;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+/* Botões */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Cards */
+.card {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 300px;
+  background-color: #fff;
+}
+
+h3 {
+  margin: 10px 0;
+}
+
+.card p {
+  color: #444;
+  font-size: 1em;
+}
+
+a{
+color: #feb47b;
+}
+
+label{
+  color: black;
+}
